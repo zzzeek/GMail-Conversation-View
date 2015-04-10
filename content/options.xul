@@ -76,6 +76,7 @@
   </setting>
   <setting title="&title.extra_attachments;" desc="&desc.extra_attachments2;" pref="conversations.extra_attachments" type="bool" />
   <setting title="&title.compose_in_tab;" desc="&desc.compose_in_tab;" pref="conversations.compose_in_tab" type="bool" />
+  <setting title="&title.message_open_in_conversation;" desc="&desc.message_open_in_conversation;" pref="conversations.message_open_in_conversation" type="bool" />
   <setting title="&title.enable_quick_reply;" desc="&desc.enable_quick_reply;" pref="conversations.enable_quick_reply" type="bool" />
   <setting title="&title.debugging;" desc="&desc.debugging;" pref="conversations.logging_enabled" type="bool" />
 

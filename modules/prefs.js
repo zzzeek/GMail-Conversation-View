@@ -66,6 +66,7 @@ function PrefManager() {
   this.hide_sigs = prefsService.getBoolPref("hide_sigs");
   this.compose_in_tab = prefsService.getBoolPref("compose_in_tab");
   this.enable_quick_reply = prefsService.getBoolPref("enable_quick_reply");
+  this.message_open_in_conversation = prefsService.getBoolPref("message_open_in_conversation");
   // This is a hashmap
   this.monospaced_senders = {};
   for each (s in this.split(prefsService.getCharPref("monospaced_senders")))
